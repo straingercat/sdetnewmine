@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="batch1Test">
+    <classes>
+      <class name="purchaseorderTest.Tc01_EnteringPrchseOrderpageTest"/>
+      <class name="purchaseorderTest.Tc02_AddingNewPrchseOrderTest"/>
+      <class name="purchaseorderTest.Tc03_EnteringMandatoryDetailsTest"/>
+    </classes>
+  </test> <!-- batch1Test -->
+</suite> <!-- Suite -->
